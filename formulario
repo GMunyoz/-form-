@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <meta charset="utf-8">
+     <title>Glosario de Términos UX UI</title>
+     <style>
+      h1 {
+      color: #F0F8FF;  
+      text-align: center;}
+      h2 {
+        color: #FAEBD7;
+        text-align: center;
+        font-weight: 100;}
+      li {
+        color: #FFF8DC;
+      }
+      img {
+        margin: auto;
+        width: "100";
+        text-align: center;
+      }
+      input {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      }
+    </style>
+
+   </head>
+   
+   <body>
+       
+    
+    <form method="post" action="miservidor.php">
+      <div>
+      <label for="C.P.">C.P.</label>
+        <input type="text" placeholder="Código Postal">
+      </div>
+      <br>
+      <div>
+        <label for="Satisfacción">Satisfacción</label>
+        <select>
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+         </select>
+        </div>
+        <br>
+        <div>
+          <label for="email">Email</label>
+            <input type="text" placeholder="usuario_2@gmail.com">
+          </div>
+          <br>
+          <div>
+            <label for="Valoración positiva">Puntos positivos</label>
+           <br>
+           <textarea placeholder="Me ha gustado..."></textarea>
+          </div>
+          <br>
+          <div>
+            <label for="Valoración negativa">Puntos negativos</label>
+           <br>
+           <textarea placeholder="No me ha gustado..."></textarea>
+          </div>
+          <br>
+          <div>
+            <label for="Estética">Estética</label>
+           <br>
+          
+           <input type="radio" value="M">Excelente
+           <input type="radio" value="F">Bueno
+           <input type="radio" value="F">Regular
+           <input type="radio" value="F">Pésimo
+          </div>
+          <br>
+          <div>
+            <label for="Calidad">Calidad de materiales</label>
+           <br>
+          
+           <input type="radio" value="M">Excelente
+           <input type="radio" value="F">Bueno
+           <input type="radio" value="F">Regular
+           <input type="radio" value="F">Pésimo
+          </div>
+          <br>
+          <div>
+            <label for="Sonido">Sonido</label>
+           <br>
+          
+           <input type="radio" value="M">Excelente
+           <input type="radio" value="F">Bueno
+           <input type="radio" value="F">Regular
+           <input type="radio" value="F">Pésimo
+          </div>
+          <br>
+          <div>
+            <label for="Valoración general">Valoración general</label>
+           <br>
+         <select>
+            <option value="1">Excelente</option>
+            <option value="2">Bueno</option>
+            <option value="3">Regular</option>
+            <option value="4">Pésimo</option>
+               </select>
+          </div>
+              <br>
+  
+      <button type="submit">Enviar</button>
+ </form> 
